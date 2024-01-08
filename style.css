@@ -112,5 +112,70 @@
     overflow: hidden; /* For animation ScrollReveal */
   }
 
- 
+ /* header---------------------------------------------------------- */
+ .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: var(--z-fixed);
+  }
+
+  .nav{
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: antiquewhite; */
+  }
+
+  .nav__logo{
+    font-size: var(--h2-font-size);
+    font-weight: var(--font-semi-bold);
+    color: var(--first-color);
+  }
+
+  .nav__close, .nav__toggle{
+    display: flex;
+    font-size: 1.5rem;
+    color: var(--white-color);
+    cursor: pointer;
+  }
   
+  @media screen and (max-width: 1150px){
+    .nav__menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: hsla(23, 12%, 4%, .2);
+        width: 100%;
+        padding-block: 5.5rem 4.5rem;
+        backdrop-filter: blur(32px);
+        -webkit-backdrop-filter: blur(32px);
+        transition: top .4s;
+    }
+  }
+
+  .nav__list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5rem;
+    text-align: center;
+  }
+
+  .nav__link{
+    color: var(--white-color);
+    font-weight: var(--font-medium);
+    transition: color .4s;
+  }
+
+  .nav__link:hover{
+    color: var(--first-color);
+  }
+  
+  .nav__close{
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+  }
