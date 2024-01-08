@@ -280,3 +280,29 @@
   .home__social-link:hover{
     color: var(--first-color);
   }
+
+  .home__button{
+    justify-self: center;
+  }
+
+  .button{
+    color: var(--white-color);
+    padding: .75rem 1.5rem;
+    background: var(--gradient-color);
+    border-radius: 4rem;
+    font-weight: var(--font-semi-bold);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: .5rem;
+    transition: box-shadow .4s;
+  }
+
+  .button i{
+    font-size: 2rem;
+    font-weight: initial;
+    color: var(--first-color);
+  }
+  .button:hover{
+    box-shadow: 0  12px 32px hsla(23, 100%, 50%, .12);
+  }
