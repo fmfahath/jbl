@@ -185,3 +185,55 @@
     top: 0;
   }
 
+  /* main----------------------------------------------------------------------- */
+  /* home------------------------------------------ */
+  .home__container{
+    position: relative;
+    padding-block: 7rem 1rem;
+    row-gap: 2.5rem;
+  }
+
+  .home__content{
+    position: relative;
+    display: grid;
+    justify-self: center;
+  }
+
+  .home__img{
+    width: 220px;
+  }
+
+  .home__title{
+    font-size: var(--biggest-font-size);
+    display: flex;
+    column-gap: .25rem;
+    color: var(--first-color);
+    position: absolute;
+    top: -2rem;
+    justify-self: center;
+  }
+
+  .home__title span:nth-child(2){
+    z-index: -1;
+  }
+
+  .home__tooltip{
+    position: absolute;
+    top: 0rem;
+    right: 1.5rem;
+  }
+
+  .home__tootltip-img{
+    width: 60px;
+  }
+
+  .home__tooltip-text{
+    background: var(--gradient-color);
+    padding: .25rem .75rem;
+    color: var(--white-color);
+    border-radius: .4rem;
+    font-size: var(--small-font-size);
+    position: absolute;
+    transform: translate(60px, -40px);
+    white-space: nowrap;
+  }
