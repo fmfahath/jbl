@@ -146,7 +146,8 @@
   @media screen and (max-width: 1150px){
     .nav__menu{
         position: fixed;
-        top: 0;
+        /* top: 0; */
+        top: -100%;
         left: 0;
         background-color: hsla(23, 12%, 4%, .2);
         width: 100%;
@@ -173,9 +174,13 @@
   .nav__link:hover{
     color: var(--first-color);
   }
-  
+
   .nav__close{
     position: absolute;
     top: 1rem;
     right: 1.5rem;
+  }
+
+  .show-menu{
+    top: 0;
   }
