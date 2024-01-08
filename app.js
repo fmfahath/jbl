@@ -16,7 +16,7 @@ if(navClose){
     });
 }
 
-//hide nav menu when we click on nav link item
+//hide nav menu when click on each nav link item
 const navLink = document.querySelectorAll('.nav__link');
 
 const linkAction = () => {
