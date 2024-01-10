@@ -41,7 +41,7 @@ let swiperFavorite = new Swiper('.favorite__swiper', {
     centeredSlides: 'auto',
     grabCursor: true,
     breakpoints: {
-        768: {
+        500: {
             slidesPerView: 3,
         }
     }
