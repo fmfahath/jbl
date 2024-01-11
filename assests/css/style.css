@@ -655,3 +655,39 @@
     justify-content: initial;
   }
 }
+
+@media screen and (min-width: 768px){
+  
+  .home__img{
+    width: 320px;
+  }
+
+  .home__title{
+    font-size: 16rem;
+    top: -4rem;
+  }
+
+  /* .home__social{
+    top: 0;
+    bottom: 0;
+    align-content: center;
+  } */
+
+  .sponsor__container{
+   grid-template-columns: repeat(4, max-content);
+  }
+
+  .footer__container{
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+  }
+
+  .footer__data{
+    column-gap: 4rem;
+  }
+
+  .footer__logo{
+    font-size: 2rem;
+    font-weight: var(--font-medium);
+  }
+}
