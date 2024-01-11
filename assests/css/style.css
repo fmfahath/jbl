@@ -635,3 +635,23 @@
     gap: 4rem 2rem;
   }
 }
+
+@media screen and (min-width: 570px){
+  .about__container{
+    grid-template-columns: 380px;
+    justify-content: center;
+  }
+
+  .footer__data{
+    grid-template-columns: repeat(3, max-content); 
+    row-gap:  3rem;
+   }
+
+   .footer__group{
+    grid-column: initial;
+  }
+
+  .footer__social{
+    justify-content: initial;
+  }
+}
