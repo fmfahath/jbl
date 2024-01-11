@@ -607,3 +607,31 @@
 .scrollup:hover{
   transform: translateY(-.5rem);
 }
+
+/* breakpoints----------------------------------------------------- */
+@media screen  and (max-width:340px){
+  .container{
+    margin-inline: 1rem;
+  }
+
+  .home__img{
+    width: 180px;
+  }
+
+  .home__title{
+    font-size: 8rem;
+  }
+
+  .button{
+    font-size: .8rem;
+    padding: .55rem 1rem;
+  }
+
+  .model__content{
+    transform: scale(0.8);
+  }
+
+  .sponsor__container{
+    gap: 4rem 2rem;
+  }
+}
