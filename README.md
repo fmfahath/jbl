@@ -1,6 +1,6 @@
 <div align='center'>
-  <h1>JBL Website Clone</h1>
-  <h3>Using HTLM, CSS | JavaScript | Swiper JS | Scroll Reveal | Remix Icon</h3>
+  <h1>Responsive JBL Website Clone</h1>
+  <h3>HTLM | CSS | JavaScript | Swiper JS | Scroll Reveal | Remix Icon</h3>
   <img src='https://img.shields.io/badge/fmfahath-white?logo=github&logoColor=black'/>
   
 <br><br>
